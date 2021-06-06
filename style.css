@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
 
 
 
@@ -57,7 +58,7 @@ body{
 /* SECTION ONE BEGIN - OPENING*/
 
 .one{
-    background: url(images/background%202.jpg);
+    background: url(images/background5.jpg);
     background-size:cover;
     position: relative;
     padding: 150px;
@@ -234,6 +235,11 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
 
 
 /* SECTION FOUR BEGIN - PROJECTS*/
+
+.four{
+    padding-bottom: 5%;
+}   
+
 .before-after{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -325,6 +331,70 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
 
 /* SECTION FIVE BEGIN - REVIEWS*/
 
+.reviews-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    
+}
+
+.review-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    background-color: #E8D6CB;
+    margin: 40px 0;
+    padding: 0 30px 30px 30px;
+    box-shadow: -1px -1px 19px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 19px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 19px 2px rgba(0,0,0,0.75);
+    
+}
+
+.review-quote{
+    font-size: 5rem;
+    color:#741F27;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.end{
+    text-align: end;
+}
+
+.reviews{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #741F27;
+}
+
+
+
+.review-customer{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #741F27;
+    text-align: center;
+}
 /* SECTION FIVE END - REVIEWS*/
 
 
@@ -637,6 +707,11 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     .map{
         width: 100%;
     }
+    .review-block{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin: 5px 10px;
+    }
 }
 
 
@@ -680,7 +755,11 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     .map{
         width: 100%;
     }
-    
+    .review-block{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin: 5px 10px;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -723,7 +802,11 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     .map{
         width: 100%;
     }
-    
+    .review-block{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin: 5px 10px;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -766,7 +849,11 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     .map{
         width: 100%;
     }
-    
+    .review-block{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin: 5px 10px;
+    }
     
 }
 
@@ -810,7 +897,11 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     .map{
         width: 100%;
     }
-    
+    .review-block{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin: 5px 10px;
+    }
     
 }
     
