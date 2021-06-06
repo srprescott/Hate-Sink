@@ -266,9 +266,9 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -ms-flex-preferred-size: 45%;
-    flex-basis: 45%;
-    padding: 2%;
+    -ms-flex-preferred-size:50%;
+    flex-basis: 50%;
+    padding: 2% 1%;
 }
     
     
