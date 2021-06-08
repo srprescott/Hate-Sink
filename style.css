@@ -65,15 +65,10 @@ body{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-pack: distribute;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
-    
     
     /*for parallax*/
     background-attachment: fixed;
@@ -83,43 +78,35 @@ body{
 }
 
 .heading{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-preferred-size: 40%;
-    flex-basis: 40%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    
     text-align: center;
-    text-shadow: 0px 0px 4px #FFFFFF;
+    margin-bottom: 100px;
+    padding: 100px;
+    background-color: #741F27;
+    color: white;
 }
 
 
 
 .head-text{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 900;
-    color: #741F27;
+    
 }
 
 .head-sub-text-one{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
-    color: #741F27;
+    
 }
 
 .head-sub-text-two{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 700;
-    color: #741F27;
+    color: white;
 }
 
 
@@ -129,8 +116,9 @@ body{
     display: flex;
     -ms-flex-preferred-size: 40%;
     flex-basis: 40%;
-    opacity: 70%;
+    opacity: 80%;
     z-index: 5;
+    border-radius: 100%;
     box-shadow: -1px -1px 19px 2px rgba(0,0,0,0.75);
     -webkit-box-shadow: -1px -1px 19px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px -1px 19px 2px rgba(0,0,0,0.75);
@@ -146,7 +134,7 @@ body{
 /* SECTION TWO BEGIN - ABOUT*/
 
 .two{
-    padding: 5% 0 5% 0;
+    padding: 0 0 5% 0;
 }
 
 .head-p{
@@ -282,7 +270,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     
 .left {
     position: relative;
-    left: -1000px;
+    left: -1500px;
     -webkit-animation: slide 2s forwards;
     animation: slide 2s forwards;
     box-shadow: -1px -1px 19px 2px rgba(0,0,0,0.75);
@@ -302,7 +290,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
 
 .right {
     position: relative;
-    left: 1000px;
+    left: 1500px;
     -webkit-animation: slide 2s forwards;
     animation: slide 2s forwards;
     box-shadow: -1px -1px 19px 2px rgba(0,0,0,0.75);
@@ -709,8 +697,12 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     .review-block{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-        margin: 5px 10px;
+        margin: 20px 20px;
     }
+    .heading{
+        padding:20px;
+    }
+    
 }
 
 
@@ -737,7 +729,6 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         flex-flow: column;
         padding: 50px 0;
         margin: 0;
-        
     }
     .head-sub-text-two{
         font-size: 3rem;
@@ -757,8 +748,12 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     .review-block{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-        margin: 5px 10px;
+        margin: 20px 20px;
     }
+    .heading{
+        padding:20px;
+    }
+    
 }
 
 @media screen and (max-width:640px) {
@@ -804,7 +799,10 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     .review-block{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-        margin: 5px 10px;
+        margin: 20px 20px;
+    }
+    .heading{
+        padding:20px;
     }
 }
 
@@ -851,9 +849,11 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     .review-block{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-        margin: 5px 10px;
+        margin: 20px 20px;
     }
-    
+    .heading{
+        padding:20px;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -899,8 +899,10 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     .review-block{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-        margin: 5px 10px;
+        margin: 20px 20px;
     }
-    
+    .heading{
+        padding:20px;
+    }
 }
     
