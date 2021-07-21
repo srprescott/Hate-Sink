@@ -653,7 +653,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
 
 
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1199px) {
     .container-fluid {
         width: 100%;
     }
@@ -667,20 +667,28 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: none;
     }
     .logo {
-        width: 100%;
+        width: 50%;
         opacity: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
     }
     .one{
-        background: url(images/background-small.jpg);
+        background: url(images/background8.jpg);
         background-size:cover;
         position: relative;
-        padding: 150px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: start;
         -ms-flex-pack: start;
         justify-content: flex-start;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
 
         /*for parallax*/
         background-attachment: fixed;
@@ -691,7 +699,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         -webkit-box-direction: normal;
         -ms-flex-flow: column;
         flex-flow: column;
-        padding: 50px 0;
+        padding: 200px;
         margin: 0;
         
     }
@@ -736,8 +744,12 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: none;
     }
     .logo {
-        width: 100%;
+        width: 70%;
         opacity: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        
     }
     .one{
         background: url(images/background-small.jpg);
@@ -747,9 +759,12 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
 
         /*for parallax*/
         background-attachment: fixed;
@@ -804,7 +819,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: none;
     }
     .logo {
-        width: 100%;
+        width: 70%;
         opacity: 80%;
     }
     .one{
@@ -815,9 +830,12 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
 
         /*for parallax*/
         background-attachment: fixed;
@@ -871,7 +889,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: none;
     }
     .logo {
-        width: 100%;
+        width: 70%;
         opacity: 80%;
     }
     .one{
@@ -882,9 +900,12 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
 
         /*for parallax*/
         background-attachment: fixed;
@@ -938,7 +959,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: none;
     }
     .logo {
-        width: 100%;
+        width: 70%;
         opacity: 80%;
     }
     .one{
@@ -949,9 +970,12 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
 
         /*for parallax*/
         background-attachment: fixed;
