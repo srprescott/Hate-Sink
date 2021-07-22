@@ -667,7 +667,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: none;
     }
     .logo {
-        width: 50%;
+        width: 40%;
         opacity: 80%;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -677,7 +677,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         justify-content: flex-end;
     }
     .one{
-        background: url(images/background8.jpg);
+        background: url(images/background-small.jpg);
         background-size:cover;
         position: relative;
         display: -webkit-box;
@@ -699,7 +699,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         -webkit-box-direction: normal;
         -ms-flex-flow: column;
         flex-flow: column;
-        padding: 200px;
+        padding: 200px 50px;
         margin: 0;
         
     }
