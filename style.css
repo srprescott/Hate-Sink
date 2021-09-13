@@ -81,7 +81,7 @@ body{
     text-align: center;
     margin-bottom: 100px;
     padding: 100px;
-    background-color: #741F27;
+    background-color: #0E1C36;
     color: white;
 }
 
@@ -140,7 +140,7 @@ body{
 .head-p{
     font-size: 4rem;
     font-weight: 600;
-    color: #741F27;
+    color: #0E1C36;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -181,14 +181,14 @@ body{
     font-size: 2.2rem;
     font-weight: 500;
     margin: 30px 10%;;
-    color: #741F27;
+    color: #0E1C36;
 }
 
 .sub-p{
     font-size: 1.5rem;
     font-weight: 500;
     margin: 30px;
-    color: #741F27;
+    color: #0E1C36;
     
 }
 
@@ -223,6 +223,10 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
 
 
 /* SECTION FOUR BEGIN - PROJECTS*/
+
+#projects{
+    margin: 50px;
+}
 
 .four{
     padding-bottom: 5%;
@@ -317,6 +321,9 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
 
 
 /* SECTION FIVE BEGIN - REVIEWS*/
+#reviews{
+    margin: 50px;
+}
 
 .reviews-section{
     display: -webkit-box;
@@ -357,7 +364,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
 
 .review-quote{
     font-size: 5rem;
-    color:#741F27;
+    color:#0E1C36;
     font-family: 'Catamaran', sans-serif;
 }
 
@@ -371,7 +378,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     display: flex;
     font-size: 1.5rem;
     font-weight: 400;
-    color: #741F27;
+    color: #0E1C36;
 }
 
 
@@ -379,7 +386,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
 .review-customer{
     font-size: 1.5rem;
     font-weight: 300;
-    color: #741F27;
+    color: #0E1C36;
     text-align: center;
 }
 /* SECTION FIVE END - REVIEWS*/
@@ -459,7 +466,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     flex-direction: row;
     -ms-flex-flow: wrap;
     flex-flow: wrap;
-    background-color: #741F27;
+    background-color: #0E1C36;
     position: fixed;
 }
 
@@ -520,7 +527,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
     font-size: 1.2em;
     padding-top:8px;
     color: white;
-    background-color: #741F27;
+    background-color: #0E1C36;
 }
 
 .footer a:link{
@@ -585,7 +592,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.75);
         display: flex;
         -ms-flex-pack: distribute;
         justify-content: space-around;
-        background-color: #741F27;
+        background-color: #0E1C36;
         margin-top: 20px;
     }
     .topnav a.icon {
