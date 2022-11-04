@@ -1,3 +1,14 @@
+<?php
+    
+    $name=$_POST["name"];
+    $email=$_POST["email"];
+    $input=$_POST["input"];
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -76,9 +87,19 @@
                
                 <div class="heading">
                 
-                    <p class="head-text">Call today</p>
-                    <p class="head-sub-text-one">to schedule your <em>FREE</em> and easy half hour, In-Home Estimate!</p>
-                    <a class="head-sub-text-two" href="tel:1-772-486-4002" class="sub-p-cs">(772) 486-4002</a>
+                    <form class="contact-form" action="contactform.php" method="post">
+                                <label class="white-text-sub">Name</label>
+                                <input type="text" name="name" placeholder="Full Name">
+                                <label class="white-text-sub">City</label>
+                                <input type="text" name="city" placeholder="City">
+                                <label class="white-text-sub">Email Address</label>
+                                <input type="text" name="mail" placeholder="Email">
+                                <label class="white-text-sub">Phone Number</label>
+                                <input type="text" name="phone" placeholder="Phone Number">
+                                <label class="white-text-sub">What can we help you with?</label>
+                                <textarea name="message" placeholder="Message"></textarea>
+                                <button class="submit" type="submit" name="submit">Submit</button>
+                            </form>
                 
                 </div>
                 
