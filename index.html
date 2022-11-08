@@ -1,14 +1,3 @@
-<?php
-    
-    $name=$_POST["name"];
-    $email=$_POST["email"];
-    $input=$_POST["input"];
-
-?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Replace My Sink</title>
         <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/ee5902d563.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -38,8 +26,9 @@
          <!-- NAV BAR BEGIN -->
         
         <div class="topnav" id="myTopnav"> 
-            <a href="index.php">Home</a> 
+            <a href="index.html">Home</a> 
             <a href="#about">About Us</a> 
+            <!-- <a href="#services">Services</a> -->
             <a href="#projects">Projects</a> 
             <a href="#reviews">Reviews</a> 
             <a href="#contact">Contact Us</a>
@@ -86,36 +75,10 @@
                
                 <div class="heading">
                 
-                    <p class="head-p-white">Have you been told it can’t be done? We can do it!</p>
-                    <p class="sub-p-white">Contact us today to schedule your free and easy half hour, in-home estimate. <br> Call <a class="sub-p-white" href="tel:1-772-486-4002" class="sub-p-cs">(772) 486-4002</a> or send us a message below!</p>
-                    
-                
-                    <form class="contact-form" action="contactform.php" method="post">
-                               
-                                <label class="white-text-sub">Full Name:</label>
-                                <input type="text" name="subject" placeholder="Full Name" required>
-                                
-                                <label class="white-text-sub">City:</label>
-                                <input type="text" name="city" placeholder="City" required>
-                                
-                                <label class="white-text-sub">Email Address:</label>
-                                <input type="text" name="mail" placeholder="Email Address" required>
-                                
-                                <label class="white-text-sub">Phone Number:</label>
-                                <input type="text" name="phone" placeholder="Phone Number" required>
-                                
-                                <label class="white-text-sub">What can we help you with?</label>
-                                <textarea name="message" placeholder="Message"></textarea>
-                                
-                                <button class="submit" type="submit" name="submit">Submit</button>
-                    </form>
-                    
-                    <div class="socials">
-                        <!-- <a class="social-link" href="" target="_blank"><i class="fa-brands fa-google"></i></a> -->
-                        <a class="social-link" href="https://www.facebook.com/replacemysink" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        <a class="social-link" href="https://twitter.com/replacemysink" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                        <a class="social-link" href="https://www.instagram.com/replacemysink/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
+                    <p class="head-text">Call today</p>
+                    <p class="head-sub-text-one">to schedule your <em>FREE</em> and easy half hour, In-Home Estimate!</p>
+                    <a class="head-sub-text-two" href="tel:1-772-486-4002" class="sub-p-cs">(772) 486-4002</a>
+                   
                 
                 </div>
                 
@@ -138,20 +101,6 @@
                     
                     </div>
                     
-                    
-                    
-                </div>
-                
-                
-                <div class="video-section">
-                  
-                   <iframe width="800" height="449" src="https://www.youtube.com/embed/3afeFaYHsr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   
-                   <iframe width="800" height="449" src="https://www.youtube.com/embed/NuYbPR-uxMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   
-                   
-                    
-                    
                 </div>
                 
             </section>  
@@ -167,62 +116,59 @@
             
             <section class="four">
                <p class="head-p">Our Projects</p>
-               
-                <p class="intro-p">In Just one day, you can have the kitchen sink of your dreams! <br><br> We are skilled at cutting all kind of kitchen countertop surfaces to install top or under-mount and farm-style sinks. Cracked granite is not a problem in most cases. Enjoy a dust-free install with our proprietary YAK dust room.</p>
-                
                 <div class="before-after">
                     <div class="before project-image">
                         <p class="intro-p project-intro-p">Before</p>
-                        <img class="shade left" src="images/before-after/three-before.jpg" loading="lazy" alt="Broken Sink Before Image">
+                        <img class="shade left" src="images/before-after/three-before.jpg" loading="lazy">
                     </div>
                     <div class="after project-image">
                         <p class="intro-p project-intro-p">After</p>
-                        <img class="shade right" src="images/before-after/three-after.jpg" loading="lazy" alt="Broken Sink After Image">
+                        <img class="shade right" src="images/before-after/three-after.jpg" loading="lazy">
                     </div>
                 </div>
                    
                 <div class="before-after">
                     <div class="before project-image">
-                        <img class="shade left" src="images/before-after/one-before.jpg" loading="lazy" alt="Broken Sink Before Image">
+                        <img class="shade left" src="images/before-after/one-before.jpg" loading="lazy">
                     </div>
                     <div class="after project-image">
-                        <img class="shade right" src="images/before-after/one-after.jpg" loading="lazy" alt="Broken Sink After Image">
+                        <img class="shade right" src="images/before-after/one-after.jpg" loading="lazy">
                     </div>
                 </div>
                   
                 <div class="before-after">
                     <div class="before project-image">
-                        <img class="shade left" src="images/before-after/two-before.jpg" loading="lazy" alt="Broken Sink Before Image">
+                        <img class="shade left" src="images/before-after/two-before.jpg" loading="lazy">
                     </div>
                     <div class="after project-image">
-                        <img class="shade right" src="images/before-after/two-after.jpg" loading="lazy" alt="Broken Sink After Image">
+                        <img class="shade right" src="images/before-after/two-after.jpg" loading="lazy">
                     </div>
                 </div>     
                         
                 <div class="before-after">
                     <div class="before project-image">
-                        <img class="shade left" src="images/before-after/four-before.jpg" loading="lazy" alt="Broken Sink Before Image">
+                        <img class="shade left" src="images/before-after/four-before.jpg" loading="lazy">
                     </div>
                     <div class="after project-image">
-                        <img class="shade right" src="images/before-after/four-after.jpg" loading="lazy" alt="Broken Sink After Image">
+                        <img class="shade right" src="images/before-after/four-after.jpg" loading="lazy">
                     </div>
                 </div>           
                    
                 <div class="before-after">
                     <div class="before project-image">
-                        <img class="shade left" src="images/before-after/five-before.jpg" loading="lazy" alt="Broken Sink Before Image">
+                        <img class="shade left" src="images/before-after/five-before.jpg" loading="lazy">
                     </div>
                     <div class="after project-image">
-                        <img class="shade right" src="images/before-after/five-after.jpg" loading="lazy" alt="Broken Sink After Image">
+                        <img class="shade right" src="images/before-after/five-after.jpg" loading="lazy">
                     </div>
                 </div>
                       
                 <div class="before-after">
                     <div class="before project-image">
-                        <img class="shade left" src="images/before-after/six-before.jpg" loading="lazy" alt="Broken Sink Before Image">
+                        <img class="shade left" src="images/before-after/six-before.jpg" loading="lazy">
                     </div>
                     <div class="after project-image">
-                        <img class="shade right" src="images/before-after/six-after.jpg" loading="lazy" alt="Broken Sink After Image">
+                        <img class="shade right" src="images/before-after/six-after.jpg" loading="lazy">
                     </div>
                 </div>   
                     
@@ -276,28 +222,6 @@
                        
                    </div>
                     
-                </div>
-                
-                <div class="more-reviews">
-                    <p class="head-p">See more of our reviews here:</p>
-                    <div class="review-links">
-                       <div class="review-link-box">
-                           <p class="sub-p-review">Google Reviews</p>
-                           <a class="review-link" href="https://www.google.com/maps/place/Replace+My+Sink,+LLC/@26.9343254,-80.1010956,17z/data=!4m7!3m6!1s0x8ea32943e1cfc577:0x7c697fc9b9ed4883!8m2!3d26.9343254!4d-80.0989069!9m1!1b1?hl=en" target="_blank"><i class="fa-brands fa-google"></i></a>
-                           
-                       </div>
-                       <div class="review-link-box">
-                           <p class="sub-p-review">Better Business Bureau Reviews</p>
-                            <a class="review-link" href="https://www.bbb.org/us/fl/jupiter/profile/countertops/replace-my-sink-llc-0633-90605288/customer-reviews#leave-a-review" target="_blank"><i class="fa-sharp fa-solid fa-b"></i><i class="fa-sharp fa-solid fa-b"></i><i class="fa-sharp fa-solid fa-b"></i></a>
-
-                           
-                       </div>
-                       <div class="review-link-box">
-                           <p class="sub-p-review">Facebook Reviews</p>
-                           <a class="review-link" href="https://www.facebook.com/replacemysink/reviews" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                           
-                       </div>
-                    </div>
                     
                 </div>
                 
@@ -321,13 +245,6 @@
                    </div>
                    
                    
-                    <div class="c-blurb">
-                       <p class="sub-p-cs-lg">FIND US</p>
-                       <p class="sub-p-cs">337 W Indiantown Rd, </p>
-                       <p class="sub-p-cs">Jupiter, FL 33458</p>
-                   </div>
-                   
-                   
                    <div class="c-blurb">
                        <p class="sub-p-cs-lg">LICENSE NUMBER</p>
                        <p class="sub-p-cs">CFC1431113</p>
@@ -345,14 +262,6 @@
                     
             
                 </div>
-                
-                <div class="socials">
-                    <!-- <a class="social-link" href="" target="_blank"><i class="fa-brands fa-google"></i></a> -->
-                    <a class="social-link" href="https://www.facebook.com/replacemysink" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a class="social-link" href="https://twitter.com/replacemysink" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    <a class="social-link" href="https://www.instagram.com/replacemysink/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-                
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d322885.43749061413!2d-80.45842744537897!3d26.603180330277706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88debaaecea0d6f3%3A0x899a17a886209003!2sPalm%20Beach%20County%2C%20FL!5e0!3m2!1sen!2sus!4v1621896122006!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 
                 

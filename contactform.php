@@ -8,7 +8,7 @@ if(isset($_POST['submit'])) {
     $city = $_POST['city'];
     $phone = $_POST['phone'];
     
-    $mailTo = "sara@terraconinstall.com";
+    $mailTo = "info@replacemysink.com";
     $headers = "Email: ".$mailFrom;
     $txt = "Name: ".$subject."\n\n City: ".$city."\n\n Phone: ".$phone."\n\n Email: ".$mailFrom."\n\n Message: ".$message;
     
